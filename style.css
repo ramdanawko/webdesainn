@@ -1,0 +1,142 @@
+/* Umum */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212; /* Warna hitam gelap */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff; /* Teks putih */
+}
+
+section {
+  width: 100%;
+  max-width: 800px;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  margin: 20px 0;
+}
+
+/* Layout 1: Profil */
+.profile-container {
+  text-align: center;
+  background: linear-gradient(135deg, #1f1f1f, #333);
+  color: white;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid white;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.profile-name {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+/* Layout 2: Pendidikan */
+.education-section {
+  background-color: #1e1e1e;
+}
+
+.education-section h2 {
+  text-align: center;
+  font-size: 28px;
+  color: #64b5f6;
+  margin-bottom: 30px;
+}
+
+.education-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.education-item {
+  background-color: #2a2a2a;
+  padding: 20px;
+  border-left: 6px solid #2196f3;
+  box-shadow: 0 2px 10px rgba(33, 150, 243, 0.1);
+  border-radius: 10px;
+  color: #e0e0e0;
+}
+
+/* Layout 3: Pekerjaan */
+.work-section {
+  background-color: #1b1f1b;
+}
+
+.work-section h2 {
+  text-align: center;
+  font-size: 28px;
+  color: #81c784;
+  margin-bottom: 30px;
+}
+
+.work-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.work-item {
+  background-color: #2d2d2d;
+  padding: 20px;
+  border-left: 6px solid #4caf50;
+  box-shadow: 0 2px 10px rgba(76, 175, 80, 0.1);
+  border-radius: 10px;
+  color: #e0e0e0;
+}
+
+/* Layout 4: Sosial Media */
+.social-section {
+  background-color: #2a1b2f;
+}
+
+.social-section h2 {
+  text-align: center;
+  font-size: 28px;
+  color: #ba68c8;
+  margin-bottom: 30px;
+}
+
+.social-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.social-item {
+  background-color: #3a2d3f;
+  padding: 15px 20px;
+  border-left: 6px solid #ce93d8;
+  box-shadow: 0 2px 10px rgba(156, 39, 176, 0.1);
+  border-radius: 10px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #f0f0f0;
+}
+
+.social-item i {
+  color: #ce93d8;
+  width: 20px;
+}
+
+.social-item a {
+  color: #ffccff;
+  text-decoration: none;
+}
+
+.social-item a:hover {
+  text-decoration: underline;
+}
